@@ -1,0 +1,153 @@
+@import "base.css";
+header{
+    width: 100%;
+    height:1rem;
+    background: red;
+    text-align: center;
+    display: flex;
+}
+.toutiao{
+    font-size:.4rem;
+    line-height:1rem;
+    color: white;
+    padding: 0 0.5rem;
+}
+input{
+    width: 60%;
+    height:.6rem;
+    margin: 8px auto;
+    border: 0;
+    border-radius: 0.1rem;
+    text-indent: 10px;
+    display: block;
+    outline: none;
+    box-sizing: border-box;
+}
+#wrapper{
+    width:100%;
+    height:0.7rem;
+    overflow: hidden;
+    line-height: .5rem;
+    border-bottom:1px solid #ccc;
+}
+#scroller{
+    width:14.5rem;
+    height:100%;
+}
+#scroller li{
+    width:1.1rem;
+    height: 100%;
+    text-align: center;
+    font-size: 0.3rem;
+    line-height: 0.7rem;
+    color: #000;
+    float: left;
+}
+#scroller li.active{
+    color: #D33682;
+}
+.listBox{
+    width: 100%;
+    height: auto;
+    overflow: auto;
+}
+.listBox li{
+    width: 90%;
+    height: auto;
+    overflow: hidden;
+    margin: 0.2rem 0;
+    font-size: .3rem;
+}
+.listBox li a{
+    display: flex;
+    align-items: center;
+    color: #000;
+    padding: 0 10px;
+    height: 2rem;
+}
+.left{
+    width: 39%;
+    height: auto;
+    overflow: hidden;
+    padding: 0.1rem 0.2rem;
+}
+.right{
+    width:75%;
+    /*height:1.6rem;*/
+    overflow: hidden;
+    padding: 0.1rem 0.2rem;
+    color: #000;
+    line-height: .5rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-align: justify;
+}
+.left img{
+    width: 90%;
+    height:auto;
+    display: block;
+}
+#add{
+    font-size: 0.3rem;
+    text-align: center;
+    line-height: 0.5rem;
+    color: #000;
+}
+.right i{
+    /*font-size:.3rem;*/
+    display: block;
+    float: right;
+    /*color: #D33682;*/
+    font-family: "微软雅黑";
+}
+.nopic li a{
+    width: .6rem;
+    height: .6rem;
+    font-size: 0.2rem;
+    text-align: center;
+    line-height: 0.34rem;
+    color: #000;
+}
+.nopic li a i{
+    font-size: 0.12rem;
+    line-height: 0.2rem;
+    display: block;
+    float: right;
+}
+section .zhao{
+    position:fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.5);
+    display: none;
+}
+section .zhao img{
+    margin:auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
